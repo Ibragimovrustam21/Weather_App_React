@@ -1,0 +1,68 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('https://source.unsplash.com/1600x900/?nature');
+}
+.card{
+    padding: 10px 30px !important;
+    border-radius: 18px;
+    color: #fff;
+    background-color: rgba(24, 23, 23, 0.74);
+}
+.inputDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.inputDiv .divForInput{
+    width: 86%;
+}
+.divForInput input{
+    border-radius: 20px;
+    border: none;
+    background-color: rgba(195, 195, 195, 0.267);
+    color: #fff;
+}
+.divForInput input::placeholder{
+    color: #fff;
+}
+.divForInput input:focus{
+    border-color: none;
+    box-shadow: none;
+    background-color: rgba(195, 195, 195, 0.267);
+    color: #fff;
+}
+.divForInput input:active{
+    border-color: none;
+    box-shadow: none;
+
+}
+.inputDiv button { 
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(195, 195, 195, 0.267);
+    border: none;
+}
+.inputDiv button:hover{
+    background-color: rgba(195, 195, 195, 0.452);
+}
+.inputDiv button i{
+    color: #fff;
+}
+.city{
+    margin: 15px 0;
+}
+.temp{
+    margin: 10px 0;
+}
+.havo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.havo img {
+    width: 60px;
+}
