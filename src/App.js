@@ -9,7 +9,7 @@ export const App = () => {
 
   const getWeather = () => {
     const ApiKey = '7b4a5bbfb2ade24ae23cfb84edf337c6'
-    document.body.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${value}')`
+    // document.body.style.backgroundImage = `url('https://source.unsplash.com/1600x900/?${value}')`
     axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${value}&units=metric&appid=${ApiKey}`)
       .then(res => {
         setResponse(res.data)

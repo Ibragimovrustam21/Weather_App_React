@@ -3,7 +3,9 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background: url('https://source.unsplash.com/1600x900/?nature');
+    /* background: url('https://source.unsplash.com/1600x900/?nature'); */
+    background: url('https://www.pxwall.com/wp-content/uploads/2018/06/Ultra-HD-4K-Nature-Desktop-Images-1024x662.jpeg') no-repeat;
+    background-size: cover;
 }
 .card{
     padding: 10px 30px !important;
